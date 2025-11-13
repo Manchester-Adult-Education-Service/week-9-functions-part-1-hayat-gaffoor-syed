@@ -96,6 +96,14 @@ print("-------------------------------------------\n"
 #
 # Note: Only the DRIVER should be typing!
 # Write your code below:
+def display_loan(title, author, borrower):
+    print("Loan recorder")
+    print(f"Title: {title}")
+    print(f"Author: {author}")
+    print(f"Borrower :{borrower}")
+    print("================")
+    
+display_loan("1984","george orwell","Sarah smith")
 
 
 
